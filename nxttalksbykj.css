@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nxttalksbgimg1 {
+    background-image: url("https://res.cloudinary.com/dqfow6cim/image/upload/v1727502397/gm10uruxmij0kxv0kkbc.jpg");
+    background-size: cover;
+}
+
+.nxttalksmg {
+    margin-top: 100%;
+}
+
+.nxttalksimg1 {
+    width: 200px;
+}
+
+.nxttalkshead1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.nxttalksimg2 {
+    width: 100px;
+}
+
+.nxttalkshead3 {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    color: #c8ff00;
+}
+
+.nxttalksbut1 {
+    width: 100%;
+    font-family: "Roboto";
+
+}
+
+.nxttalksbut2 {
+    background-color: transparent;
+    width: 100%;
+    font-family: "Roboto";
+    height: 40px;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.nxttalkshead4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.nxttalksbgimg2 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff450f5d25f9f_Vector%201.png");
+    background-size: cover;
+}
+
+.nxttalkshead5 {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #c8ff00;
+}
+
+.speakersbgclr {
+    background-color: #0f172A;
+    background-size: cover;
+}
+
+.speakershead {
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.speakersimg1 {
+    height: 50px;
+    width: 70px;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    left: calc(100px * 8);
+    animation-name: scrollLeft;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+.wrapper {
+    border: 1px solid #0f172A;
+    width: 90%;
+    max-width: 1536px;
+    margin: auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+@keyframes scrollRight {
+    to {
+        right: -200px;
+    }
+}
+
+.item33 {
+    height: 100px;
+    width: 200px;
+    right: calc(100px * 8);
+    animation-name: scrollRight;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+.item1 {
+    animation-delay: calc(20s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+    animation-delay: calc(20s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+    animation-delay: calc(20s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+    animation-delay: calc(20s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+    animation-delay: calc(20s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+    animation-delay: calc(20s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+    animation-delay: calc(20s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+    animation-delay: calc(20s / 8 * (8 - 8) * -1);
+}
+
+.trendbgclr {
+    background-image: linear-gradient(#30513c, #1e293b, #3f403a);
+    background-size: cover;
+}
+
+.trendhead1 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+.trendpara1 {
+    color: #9aa19c;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.trendbut1 {
+    background-color: #cdd1ce;
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 0;
+}
+
+.trendimg1 {
+    height: 30px;
+}
+
+.trendhead2 {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.trendbut2 {
+    background-color: transparent;
+    width: 50px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.trendbut3 {
+    background-color: transparent;
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.trendbut4 {
+    background-color: transparent;
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.trendcont1 {
+    background-color: #364151;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.trendbgimg1 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sandeep.png");
+    height: 200px;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.trendbut5 {
+    background-color: #3399ff;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 0px;
+    border-color: white;
+    color: white;
+}
+
+.trendhead3 {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-top: -5px;
+}
+
+.trendhead4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #9aa19c;
+}
+
+.trendhead5 {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #9aa19c;
+}
+
+.trendpara2 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.trendbgimg2 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay.png");
+    height: 200px;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.trendbgimg3 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/pritesh.png");
+    height: 200px;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.nxttalksbut1 {
+    width: 100%;
+    font-family: "Roboto";
+
+}
+
+.nxttalkshead4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.nxttalksbgimg2 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff450f5d25f9f_Vector%201.png");
+    background-size: cover;
+}
+
+.nxttalkshead5 {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #c8ff00;
+}
+
+.testimonials-bgclr1 {
+    background-color: #1f2933;
+}
+
+.testimonials-subheading {
+    color: white;
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.testimonials-heading {
+    color: white;
+    font-family: roboto;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.testimonials-heading2 {
+    color: orange;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.testimonials-bgclr2 {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.testimonials-img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 9px;
+}
+
+.testimonials-img2 {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.testimonials-para1 {
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.testimonials-para2 {
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.testimonials-para3 {
+    color: white;
+    font-family: roboto;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.testimonials-para4 {
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+}
+
+.testimonials-para5 {
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.testimonials-para6 {
+    color: blue;
+    font-family: roboto;
+    font-size: 15px;
+}
+
+.testimonials-cont {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f0a800;
+    border-radius: 20px;
+    height: 45px;
+    width: 250px;
+}
+
+.xyz {
+    text-align: center;
+}
+
+.testimonials-linkedin-image {
+    height: 40px;
+    margin: 10px;
+}
+
+.careerbgclr {
+    background-image: linear-gradient(#30513c, #1e293b, #3f403a);
+    background-size: cover;
+}
+
+.careerhead1 {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.careerhead2 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.careerimage1 {
+    height: 150px;
+    margin-left: 138px;
+}
+
+.careerbut {
+    width: 100%;
+}
+
+.careerbgimg {
+    margin-top: -500px;
+    height: 140px;
+    margin-right: -20px;
+}
+
+.claimbgclr1 {
+    background-color: #001c32;
+    background-size: cover;
+}
+
+.claimhead1 {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.claimhead2 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.claimbox1 {
+    background-color: #1f2933;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.but1 {
+    width: 100%;
+}
+
+.claimbgimg1 {
+    background-image: linear-gradient(#487544, #001c32);
+    background-size: cover;
+    height: 50px;
+    padding: 15px;
+}
+
+.claimhead3 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.footerlinksbgclr1 {
+    background-color: #0A192F;
+    background-size: cover;
+}
+
+.footerlinkshead1 {
+    color: #919190;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footerlinkshead1 {
+    color: #919190;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footerlinkspara1 {
+    color: #919190;
+    font-family: "Roboto";
+}
+
+.footerlinkimg1 {
+    margin-top: -60px;
+}
+
+.footerlinksline {
+    color: #32353b;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+}
+
+.footersection1bgclr1 {
+    background-color: #061C2E;
+    background-size: cover;
+}
+
+.footersection1head1 {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #575656;
+}
+
+.footersection1img1 {
+    height: 18px;
+}
